@@ -6,6 +6,7 @@ export ARCH=arm64
 export SUBARCH=arm64
 export PATH=/home/phantom/dev/toolchain/bin:$PATH
 
+make ARCH=arm64 lineage-gtaxlwifi_defconfig
 make -j$(nproc --all) \
                       ARCH=arm64 \
                       CC=clang \
