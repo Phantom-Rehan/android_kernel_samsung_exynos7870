@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Custom compile script
 
-export CC=clang
+export CC=ccache clang
 export ARCH=arm64
 export SUBARCH=arm64
 export PATH=/home/phantom/dev/toolchain/bin:$PATH
