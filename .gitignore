@@ -7,6 +7,16 @@
 # command after changing this file, to see if there are
 # any tracked files which get ignored after the change.
 #
+#
+# Rehan's rules
+## Wireless modules, i think
+chacha20-arm64.S
+poly1305-arm64.S
+## Log file
+kernel.log
+## Compile Script
+compile.sh
+#
 # Normal rules
 #
 .*
